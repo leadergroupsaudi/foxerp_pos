@@ -562,6 +562,7 @@ def make_invoice(customer, payments, cashier, pos_profile,owner, additionalDisco
     if table:
         restaurant = get_restaurant_and_menu_name(table)
         invoice.restaurant = restaurant
+        
 
     invoice.customer = customer
     invoice.pos_profile = pos_profile
@@ -572,11 +573,15 @@ def make_invoice(customer, payments, cashier, pos_profile,owner, additionalDisco
         pay.delete(pay.mode_of_payment)
 
     for d in payments:
+        print("amount is")
+        print(d["amount"])
         invoice.append(
             "payments", dict(mode_of_payment=d["mode_of_payment"], amount=d["amount"])
         )
 
-    invoice.owner = owner
+    # invoice.owner = owner
+    print(str(invoice))
+    print(str("sssssss++++++++++++++++++++++++invoice"))
     invoice.save()
     try:
         invoice.submit()
