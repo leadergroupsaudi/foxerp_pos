@@ -1,0 +1,41 @@
+[
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2025-12-16 16:54:35.684807",
+  "name": "rgk1gis26h",
+  "source_text": "URY Cashier",
+  "translated_text": "POS Cashier"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2025-12-16 16:54:43.209435",
+  "name": "rj09qbmt5u",
+  "source_text": "URY Captain",
+  "translated_text": "POS Captain"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2025-12-16 16:55:22.221884",
+  "name": "rv6dhe9v7c",
+  "source_text": "URY Manager",
+  "translated_text": "POS Manager"
+ }
+]

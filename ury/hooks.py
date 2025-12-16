@@ -6,8 +6,8 @@ app_publisher = "Tridz Technologies Pvt. Ltd"
 app_description = "A Complete Restaurant Order Taking Software"
 app_email = "info@tridz.com"
 app_license = "MIT"
-app_logo_url = "/assets/ury/Images/ury-logo.jpg"
-app_icon_title = "URY"
+# app_logo_url = "/assets/ury/Images/ury-logo.jpg"
+app_icon_title = "Foxerp Pos"
 required_apps = ["erpnext"]
 # Includes in <head>
 # ------------------
@@ -42,7 +42,7 @@ page_js = {"point-of-sale": ["public/js/pos_extend.js"]}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
 # Splash Image in Website Settings
-website_context = {"splash_image": "/assets/ury/Images/ury-logo.jpg"}
+# website_context = {"splash_image": "/assets/ury/Images/ury-logo.jpg"}
 
 website_route_rules = [
     {"from_route": "/pos/<path:app_path>", "to_route": "pos"},
@@ -373,4 +373,6 @@ fixtures = [
     },
     {"dt": "Role", "filters": [["role_name", "like", "URY %"]]},
     "Client Script",
+    "Translation",
+    {"dt": "Workspace", "filters": [["name", "in", "Restaurant POS"]]},
 ]
